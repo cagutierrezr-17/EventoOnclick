@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Barra de Navegación */
+.nav {
+    width: 850px;
+    height: 60px;
+    background-color: #cccccc;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    border: solid black 2px;
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    background-color: #2B78E4;
+    border: solid 2px black;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 1)
+}
+
+/* Tarjetas info lateral derecha */
+
+.main {
+    display: flex;
+}
+
+.card {
+    height: 190px;
+    width: 500px;
+    margin-top: 30px;
+    border: 4px solid black;
+    display: flex;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.btn_card {
+    margin-top: 30px;
+    background-color: #FFD966;
+    color: black;
+    height: 30px;
+    width: 90px;
+}
+
+.info_2 {
+    margin: 50px 0px 0px 55px;
+}
+
+span {
+    margin-top: 05px;
+}
+
+a.hover:hover {
+    color: red;
+}
+
+/* Info lateral derecha */
+
+.side_bar {
+    height: 150px;
+    width: 320px;
+    margin: 30px;
+    border: 4px solid black;
+}
+
+h3 {
+    margin-left: 10px;
+    font-size: x-large
+}
+
+#btn_side {
+    height: 30px;
+    width: 200px;
+    margin-left: 70px;
+    background-color: #93C47D;
+    color: black;
+    justify-self: center;
+}
+
+a {
+    color: #155B98;
+}

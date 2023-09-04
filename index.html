@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder=" Search">
+            <button onclick="logout(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="side_info">
+                <div class="card">
+                    <div class="info">
+                        <h2>ninja</h2>
+                        <span>noun</span>
+                        <span>Plural: ninjas</span>
+                        <button class="btn_card" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="info_2">
+                        <p>A practitioner skilled in the <a class="hover" href="#"> <br>
+                                Japanese</a> art of <a class="hover" href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h2>ninja</h2>
+                        <span>noun</span>
+                        <span>Plural: ninjas</span>
+                        <button class="btn_card" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="info_2">
+                        <p>A <a class="hover" href="#">programer </a>who breaks <br>
+                            down problems with <a class="hover" href="#">zen</a>-like <br>
+                            focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="side_bar">
+                <h3>Dojonary is <br>
+                    defined by YOU</h3>
+                <button id="btn_side" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
